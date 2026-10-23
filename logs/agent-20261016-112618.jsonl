@@ -1,0 +1,18 @@
+{"ts": "2026-10-16T11:26:18.959", "tip": "reset"}
+{"ts": "2026-10-16T11:26:21.350", "tip": "pornire", "furnizor": "mock", "model": "mock-1", "instrumente": ["check_conflict", "estimate_energy", "get_building_state", "get_device_info", "list_devices", "reset_building", "set_device_state", "set_thermostat"]}
+{"ts": "2026-10-16T11:26:56.955", "tip": "intrebare", "text": "Cât consumă radiatorul în 3 ore?", "mesaje_taiate": 0}
+{"ts": "2026-10-16T11:26:56.958", "tip": "cerere_model", "pas": 1, "mesaje": 2, "durata_ms": 2, "prompt_tokens": 97}
+{"ts": "2026-10-16T11:26:56.958", "tip": "apel", "pas": 1, "nume": "estimate_energy", "argumente": {"name": "radiator", "hours": 3.0}}
+{"ts": "2026-10-16T11:26:57.266", "tip": "rezultat", "pas": 1, "nume": "estimate_energy", "eroare": false, "text": "{\"nume\":\"radiator\",\"ore\":3.0,\"energie_kwh\":4.5}", "trunchiat": false}
+{"ts": "2026-10-16T11:26:57.267", "tip": "cerere_model", "pas": 2, "mesaje": 4, "durata_ms": 0, "prompt_tokens": 173}
+{"ts": "2026-10-16T11:26:57.267", "tip": "raspuns", "text": "[mock] Rezultatele instrumentelor:\n- {\"nume\":\"radiator\",\"ore\":3.0,\"energie_kwh\":4.5}", "pas": 2}
+{"ts": "2026-10-16T11:27:43.860", "tip": "intrebare", "text": "Ce conflict există între radiator și aer condiționat și cât ar consuma amândouă în 2 ore?", "mesaje_taiate": 0}
+{"ts": "2026-10-16T11:27:43.861", "tip": "cerere_model", "pas": 1, "mesaje": 6, "durata_ms": 0, "prompt_tokens": 237}
+{"ts": "2026-10-16T11:27:43.861", "tip": "apel", "pas": 1, "nume": "check_conflict", "argumente": {"device_a": "radiator", "device_b": "aer_conditionat"}}
+{"ts": "2026-10-16T11:27:43.867", "tip": "rezultat", "pas": 1, "nume": "check_conflict", "eroare": false, "text": "RIDICAT - încălzire și răcire simultană, consum inutil.", "trunchiat": false}
+{"ts": "2026-10-16T11:27:43.867", "tip": "apel", "pas": 1, "nume": "estimate_energy", "argumente": {"name": "radiator", "hours": 2.0}}
+{"ts": "2026-10-16T11:27:43.871", "tip": "rezultat", "pas": 1, "nume": "estimate_energy", "eroare": false, "text": "{\"nume\":\"radiator\",\"ore\":2.0,\"energie_kwh\":3.0}", "trunchiat": false}
+{"ts": "2026-10-16T11:27:43.871", "tip": "apel", "pas": 1, "nume": "estimate_energy", "argumente": {"name": "aer_conditionat", "hours": 2.0}}
+{"ts": "2026-10-16T11:27:43.875", "tip": "rezultat", "pas": 1, "nume": "estimate_energy", "eroare": false, "text": "{\"nume\":\"aer_conditionat\",\"ore\":2.0,\"energie_kwh\":4.0}", "trunchiat": false}
+{"ts": "2026-10-16T11:27:43.875", "tip": "cerere_model", "pas": 2, "mesaje": 10, "durata_ms": 0, "prompt_tokens": 447}
+{"ts": "2026-10-16T11:27:43.875", "tip": "raspuns", "text": "[mock] Rezultatele instrumentelor:\n- RIDICAT - încălzire și răcire simultană, consum inutil.\n- {\"nume\":\"radiator\",\"ore\":2.0,\"energie_kwh\":3.0}\n- {\"nume\":\"aer_conditionat\",\"ore\":2.0,\"energie_kwh\":4.0}", "pas": 2}

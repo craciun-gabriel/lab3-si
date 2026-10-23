@@ -1,0 +1,5 @@
+{"ts": "2026-10-16T10:55:54.607", "tip": "reset"}
+{"ts": "2026-10-16T10:55:57.033", "tip": "pornire", "furnizor": "gemini", "model": "gemini-3.5-flash-lite", "instrumente": ["check_conflict", "estimate_energy", "get_building_state", "get_device_info", "list_devices", "reset_building", "set_device_state", "set_thermostat"]}
+{"ts": "2026-10-16T10:56:13.631", "tip": "intrebare", "text": "salut, care este raspunsul la 6+7 ?", "mesaje_taiate": 0}
+{"ts": "2026-10-16T10:56:17.268", "tip": "cerere_model", "pas": 1, "mesaje": 2, "durata_ms": 3636, "prompt_tokens": 627}
+{"ts": "2026-10-16T10:56:17.268", "tip": "raspuns", "text": "Salut! Răspunsul la 6 + 7 este 13. Cu ce te pot ajuta în legătură cu clădirea inteligentă?", "pas": 1}

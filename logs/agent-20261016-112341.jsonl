@@ -1,0 +1,5 @@
+{"ts": "2026-10-16T11:23:41.403", "tip": "reset"}
+{"ts": "2026-10-16T11:23:43.890", "tip": "pornire", "furnizor": "gemini", "model": "gemini-3.5-flash-lite", "instrumente": ["check_conflict", "estimate_energy", "get_building_state", "get_device_info", "list_devices", "reset_building", "set_device_state", "set_thermostat"]}
+{"ts": "2026-10-16T11:23:53.487", "tip": "intrebare", "text": "cate kg are bedless chugs?", "mesaje_taiate": 0}
+{"ts": "2026-10-16T11:23:58.519", "tip": "cerere_model", "pas": 1, "mesaje": 2, "durata_ms": 5032, "prompt_tokens": 621}
+{"ts": "2026-10-16T11:23:58.520", "tip": "raspuns", "text": "Nu am informații despre greutatea sau dispozitivul numit „bedless chugs”. Eu pot gestiona doar dispozitivele inteligente din clădire (cum ar fi aerul condiționat, luminile sau sistemul de încălzire).", "pas": 1}
