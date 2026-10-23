@@ -1,0 +1,9 @@
+{"ts": "2026-10-23T11:45:27.771", "tip": "reset"}
+{"ts": "2026-10-23T11:45:27.858", "tip": "pornire", "furnizor": "mock", "model": "mock-1", "instrumente": ["check_conflict", "estimate_energy", "get_building_state", "get_device_info", "list_devices", "reset_building", "set_device_state", "set_thermostat"]}
+{"ts": "2026-10-23T11:45:40.830", "tip": "intrebare", "text": "Porneste radiatorul", "mesaje_taiate": 0}
+{"ts": "2026-10-23T11:45:40.832", "tip": "cerere_model", "pas": 1, "mesaje": 2, "durata_ms": 2, "prompt_tokens": 94}
+{"ts": "2026-10-23T11:45:40.833", "tip": "apel", "pas": 1, "nume": "set_device_state", "argumente": {"name": "radiator", "on": true}}
+{"ts": "2026-10-23T11:45:44.177", "tip": "confirmare", "pas": 1, "nume": "set_device_state", "aprobat": true}
+{"ts": "2026-10-23T11:45:44.348", "tip": "rezultat", "pas": 1, "nume": "set_device_state", "eroare": false, "text": "{\"pornite\":[\"radiator\"],\"termostat_c\":21.0}", "trunchiat": false}
+{"ts": "2026-10-23T11:45:44.348", "tip": "cerere_model", "pas": 2, "mesaje": 4, "durata_ms": 0, "prompt_tokens": 168}
+{"ts": "2026-10-23T11:45:44.348", "tip": "raspuns", "text": "[mock] Rezultatele instrumentelor:\n- {\"pornite\":[\"radiator\"],\"termostat_c\":21.0}", "pas": 2}

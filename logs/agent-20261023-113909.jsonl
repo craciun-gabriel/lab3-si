@@ -1,0 +1,2 @@
+{"ts": "2026-10-23T11:39:09.270", "tip": "reset"}
+{"ts": "2026-10-23T11:39:09.368", "tip": "pornire", "furnizor": "mock", "model": "mock-1", "instrumente": ["check_conflict", "estimate_energy", "get_building_state", "get_device_info", "list_devices", "reset_building", "set_device_state", "set_thermostat"]}
